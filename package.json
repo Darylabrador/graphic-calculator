@@ -1,0 +1,12 @@
+{
+  "name": "project-js-calculatrice-graphique",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "sass": "sass --watch ./design/scss/style.scss:./design/css/style.css",
+    "prefix": "postcss ./design/css/style.css --use autoprefixer -d ./design/css/"
+  },
+  "author": "",
+  "license": "ISC"
+}
