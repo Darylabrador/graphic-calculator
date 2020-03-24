@@ -1,0 +1,36 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#calculatorContainer {
+  background-color: yellow;
+  width: 230px;
+  height: 235px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid;
+}
+
+#screen {
+  background-color: green;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+
+.btn {
+  margin: auto;
+  width: 23%;
+  height: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
