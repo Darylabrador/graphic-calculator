@@ -24,9 +24,15 @@ body{
 #screen{
     position: relative;
     background-color: green;
-    padding: 15px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 3px;
-    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    overflow-x: auto;
+
 }
 
 .btn{

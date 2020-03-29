@@ -1,24 +1,16 @@
 let formulaire = document.querySelector('#formulaire');
 let inputField = document.querySelector('#touche');
+let screen     = document.querySelector('#screen');
 
-// formulaire.addEventListener('submit', e =>{
-//     e.preventDefault();
-//     inputField.addEventListener('keydown', e =>{
-//         console.log(e);
-//         console.log(e.key);
-//         console.log(typeof(e.key));
-//         console.log(Number(e.key));
-//         if(e.keyCode === 13){
-//             console.log('tes ouf');
-//         }
-//     })
-// })
+document.querySelectorAll('button').forEach(element => {
+    element.addEventListener('click', e => {
 
-// window.onload = function(){
-//     formulaire.click();
-// }
+        let data = element.getAttribute('value');
+        screen.textContent += data ;
 
-// window.addEventListener("keydown", e =>{
-//     console.log(e.key);
-//     inputField.value += e.key;
-// });
+        if(data == "delete"){
+            screen.textContent = "";
+        }
+
+    });
+});
