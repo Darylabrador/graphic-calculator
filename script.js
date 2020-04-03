@@ -8,7 +8,7 @@ document.querySelectorAll('button').forEach(element => {
         let data = element.getAttribute('value');
         screen.textContent += data ;
 
-        if(data == "delete"){
+        if(data == ""){
             screen.textContent = "";
         }
 
