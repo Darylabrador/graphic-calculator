@@ -9,36 +9,40 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 #calculatorContainer{
-    background-color: yellow;
+    background-color: grey;
     width: 280px;
     height: auto;
     position: relative;
     border: 1px solid;
-    padding: 2px;
+    padding: 10px;
     border-radius: 3px;
+    display: flex;
+    flex-direction: column;
 }
 
 #screen{
     position: relative;
-    background-color: green;
-    height: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
+    background-color: white;
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 3px;
     display: flex;
     align-items: center;
     justify-content: start;
-    overflow-x: auto;
 }
 
 .btn{
     position: relative;
     margin: auto;
-    width: 23%;
+    flex-grow: 4;
     height: 50px;
+    font-weight: bold;
+    width: 23.93%;
 }
 
 .center{
